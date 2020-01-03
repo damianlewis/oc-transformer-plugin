@@ -1,2 +1,2 @@
-# Transformer classes for October CMS
-Abstract classes for transforming data.
+# Transformer package for October CMS
+Transforms model data for consumption via frontend services.
