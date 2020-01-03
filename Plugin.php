@@ -12,9 +12,9 @@ class Plugin extends PluginBase
     {
         return [
             'name' => 'Transformer',
-            'description' => 'Abstract classes for transforming data.',
+            'description' => 'Transformer package for transforming model data.',
             'author' => 'Damian Lewis',
-            'icon' => 'icon-leaf'
+            'icon' => 'icon-refresh'
         ];
     }
 }
