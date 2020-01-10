@@ -2,9 +2,10 @@
 
 declare(strict_types=1);
 
-namespace DamianLewis\Transformer\Classes;
+namespace DamianLewis\Transformer\Components;
 
 use Cms\Classes\ComponentBase;
+use DamianLewis\Transformer\Classes\Transformer;
 use Model;
 use October\Rain\Database\Collection;
 
