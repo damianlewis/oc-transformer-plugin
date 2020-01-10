@@ -2,8 +2,10 @@
 
 declare(strict_types=1);
 
-namespace DamianLewis\Transformer\Classes;
+namespace DamianLewis\Transformer\Classes\Transformers;
 
+use DamianLewis\Transformer\Classes\Transformer;
+use DamianLewis\Transformer\Classes\TransformerInterface;
 use Model;
 use System\Models\File;
 
