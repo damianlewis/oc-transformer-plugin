@@ -2,9 +2,8 @@
 
 declare(strict_types=1);
 
-namespace DamianLewis\Portfolio\Classes;
+namespace DamianLewis\Transformer\Classes;
 
-use DamianLewis\Transformer\Classes\Transformer;
 use Model;
 use October\Rain\Database\Collection;
 
