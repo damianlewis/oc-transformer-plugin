@@ -29,11 +29,11 @@ abstract class TransformerComponent extends ComponentBase
     /**
      * Returns the transformed collection.
      *
-     * @param  Collection  $categories
+     * @param  Collection  $collection
      * @return array
      */
-    protected function transformCollection(Collection $categories): array
+    protected function transformCollection(Collection $collection): array
     {
-        return $this->transformer->transformCollection($categories);
+        return $this->transformer->transformCollection($collection);
     }
 }
